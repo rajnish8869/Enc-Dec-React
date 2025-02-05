@@ -1,0 +1,26 @@
+/* Works on WebKit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Scrollbar width */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1); /* Track color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4fd1c5; /* Scroll thumb color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #38b2ac; /* Scroll thumb hover color */
+}
+
+/* Firefox custom scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4fd1c5 rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
